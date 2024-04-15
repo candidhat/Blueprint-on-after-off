@@ -1,6 +1,6 @@
 blueprint:
-  name: Turn off Switch after Time has elapsed
-  description: Given a switch entity, watch for it turning on, and then turn it off after a certain period of time.
+  name: Turn ON Switch after Time has elapsed
+  description: Given a switch entity, watch for it turning off, and then turn it on after a certain period of time.
   domain: automation
   input:
     switch:
@@ -11,7 +11,7 @@ blueprint:
           domain: switch
     time:
       name: Duration
-      description: The duration to leave the switch on for
+      description: The duration to leave the switch off for
       selector:
         time:
 
